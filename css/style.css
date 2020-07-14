@@ -97,9 +97,6 @@ nav {
     width: 272px;
     height: 92px;
     margin-bottom: 38px;
-    /*     position: absolute;
-    left: calc(50% - 272px/2);
-    top: calc(50% - 140px); */
 }
 
 .search-box {
@@ -117,8 +114,7 @@ nav {
 
 @media screen and (max-width: 671px) {
     .search-wrapper {
-        width: 400px;
-        overflow-x: auto;
+        width: 400px;       
     }
 }
 
@@ -143,6 +139,7 @@ nav {
     vertical-align: middle;
     visibility: inherit;
     white-space: nowrap;
+    z-index: 999;
 }
 
 .search-icon {
